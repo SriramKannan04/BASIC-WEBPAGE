@@ -1,0 +1,51 @@
+body
+{
+    background: linear-gradient(132deg, #FC415A, #591BC5, #212335);
+    background-size: 400% 400%;
+}
+div
+{
+    background: linear-gradient(132deg, #a541fc, #0d0c0f, #f30303);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    color: yellow;            
+}
+div:hover
+{
+    color: whitesmoke;
+}
+@keyframes gradient 
+{
+  0% 
+ {
+   background-position: 0% 50%;
+ }
+ 50% 
+ {
+   background-position: 100% 50%;
+ }
+ 100% 
+ {
+    background-position: 0% 50%;
+ }
+}
+table
+{
+    font-size: 20px;
+}
+.first:hover
+{
+    color: rgb(246, 248, 248);
+}
+.second:hover
+{
+    color: gold;
+}
+.third:hover
+{
+    color: lawngreen;
+}
+.forth:hover
+{
+    color: orange;
+}
